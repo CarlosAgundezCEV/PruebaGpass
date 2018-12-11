@@ -31,4 +31,6 @@ class APIRegisterController extends Controller
         
         return Response::json(compact('token'));
     }
+
+
 }
